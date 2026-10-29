@@ -1,0 +1,29 @@
+# Secrets et configuration locale
+.env
+.env.*
+*.env
+*.env.*
+*.pem
+*.key
+*.p12
+*.pfx
+credentials*.json
+secrets*.json
+# Dépendances, caches et compilation
+node_modules/
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+dist/
+build/
+.next/
+coverage/
+*.log
+.DS_Store
+# Pièces et données privées de l’investigation
+/evidence/
+/comparisons/
+/ready-to-file/
+/needs-review/
+/private/
